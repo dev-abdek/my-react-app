@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const Person = () => {
-  const [personId, setPersonId] = useState(0);
+  const [personId, setPersonId] = useState(1);
   const [names, setNames] = useState({});
 
   useEffect(() => {
