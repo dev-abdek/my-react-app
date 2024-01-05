@@ -7,7 +7,6 @@ import EPortal from "./components/EPortal";
 import Advertisement from "./components/Advertisement";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Billing from "./components/Billing";
-import Person from "./components/Persons";
 
 const App = () => {
   return (
@@ -21,7 +20,6 @@ const App = () => {
         <Route path="/e-portal" element={<EPortal />} />
         <Route path="/advertisement" element={<Advertisement />} />
         <Route path="/billing" element={<Billing />} />
-        <Route path="/person" element={<Person />} />
       </Routes>
     </BrowserRouter>
   );
