@@ -1,7 +1,7 @@
 const MainContent = () => {
   return (
     <div className="content">
-      <h1>Reasons why I'm learning React:</h1>
+      <h1>Reasons why I love ShoeHub:</h1>
       <ul className="content--unordered--list">
         <li>React is amazing UI library</li>
         <li>React is a popular library among developers</li>

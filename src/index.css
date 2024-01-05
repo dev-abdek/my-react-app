@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -31,6 +33,7 @@ body {
 }
 
 .nav-h1 {
+    font-size: 2.7rem;
     margin-right: auto;
 }
 
