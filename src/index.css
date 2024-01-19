@@ -48,11 +48,14 @@ body {
 }
 
 .footer {
-    background-color: lightskyblue;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 1.75rem;
+    height: 94px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    font-weight: 500;
+    color: #b8aaaa;
 }
 
 .content--unordered--list {
@@ -72,4 +75,47 @@ body {
     margin-bottom: 10px;
     color: lightskyblue;
 }
-
+.host-nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.host-nav {
+    margin-top: 20px;
+}
+.hosts {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+.my-link {
+    color: red;
+}
+.my-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.back-forth {
+    text-decoration: none;
+    line-height: 2;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.back-forth::before {
+    content: "←";
+}
+.person-nav .my-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.person-nav ul a {
+    margin-right: 10px;
+    text-decoration: none;
+    line-height: 4;
+}
+.person-nav ul a:hover {
+    color: red;
+    font-weight: bold;
+}
